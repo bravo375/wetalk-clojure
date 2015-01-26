@@ -6,7 +6,10 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.8"]
                  [ring/ring-jetty-adapter "1.2.2"]
-                 [environ "0.5.0"]]
+                 [environ "0.5.0"]
+                 [com.twilio.sdk/twilio-java-sdk "3.4.6"]]
+                 ;group='com.twilio.sdk', module='twilio-java-sdk', version='3.4.6'
+                 ;[group-id/artifact-id version-string]
   :min-lein-version "2.0.0"
   :plugins [[environ/environ.lein "0.2.1"]]
   :hooks [environ.leiningen.hooks]
